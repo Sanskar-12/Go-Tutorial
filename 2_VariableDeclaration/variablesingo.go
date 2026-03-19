@@ -10,5 +10,8 @@ func main() {
 	// *** mostly used ***
 	category:="Electronics" // Declare a variable and assign a value but type is not declared and var is not used
 
-	fmt.Println("Product Name is ",productName," and price is ",productPrice," and company name is ",companyName, " and category is ",category)
+	// declare a const variable
+	const availableStock=50
+
+	fmt.Println("Product Name is ",productName," and price is ",productPrice," and company name is ",companyName, " and category is ",category," and Stock available is ",availableStock)
 }
