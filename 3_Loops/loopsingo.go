@@ -33,8 +33,8 @@ func main() {
 			j--
 			continue
 		}
-		fmt.Println(j)
-		j--
+		// fmt.Println(j)
+		// j--
 	}
 
 	// infinite loop and break keyword to break the loop
